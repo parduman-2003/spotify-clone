@@ -1,0 +1,374 @@
+body
+{
+    font-family: "Montserrat", sans-serif;
+   margin:0;
+   background-color: black;
+   color:white;
+   overflow: hidden;
+}
+.main
+{
+    display: flex;
+    height: 100vh;
+    padding: 0.5rem;
+}
+.sidebar
+{    
+    background-color:black;
+    width: 340px;
+    border-radius: 1rem;/*16px*/
+}
+.main-content
+{
+    background-color: #121212;
+    flex:1 ;
+    border-radius: 1rem;
+    overflow: scroll;
+    padding-bottom: 5rem;
+}
+.music-player
+{
+    background-color: black;
+    bottom:0;
+    width: 100%;
+    height: 72px;
+    position:fixed;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.nav
+{  
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60px;
+    width: 87%;
+    padding:2rem 0.9rem;
+    margin-left: 0.3rem;
+    
+}
+.navoption
+{  
+    margin-left:1rem;
+    line-height:3rem;
+    opacity: 0.7;
+}
+.navoption:hover
+{
+    opacity: 1;
+}
+.navoption i{
+    font-size: 1.5rem;
+    
+}
+.navoption a{
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+.library
+{   width: 87%;
+    background-color:#121212;
+    border-radius: 1rem;
+    height: 100%;
+    margin-top: 0.28rem;
+    margin-left: 0.3rem;
+    padding:1rem 0.9rem;
+   
+}
+.option
+{   
+    color:white;
+    display: flex;
+    justify-content: space-between;
+}
+.option a
+{   
+    opacity: 0.7;
+    margin-left: 1rem;
+}
+.option i
+{
+    opacity: 0.7;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+.lib-option img
+{   
+    opacity: 0.7;
+    height: 1.5 rem;
+    width: 1.5rem;
+}
+.icons
+{
+    margin-right: 1rem;
+}
+.icons i:hover
+{
+    opacity: 1;
+}
+.lib-option :hover{
+    opacity: 1;
+}
+.boxes-1
+{  
+   margin-top:1rem;
+   height:8rem;
+   width: 90%;
+   background-color: #232323;
+   border-radius: 1rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   padding-left: 2rem;
+}
+.box-p1
+{
+    font-size: 1rem;
+    width: 80%;
+}
+.box-p2
+{
+    width: 80%;
+    font-size: 0.80rem;
+    opacity: 0.75;
+}
+.badge
+{    
+    color:#232323;
+    font-weight: 600;
+    border-radius: 2rem;
+    font-size: 1rem;
+    align-self: start;
+}
+.boxes-2
+{  
+    margin-top:1.5rem;
+   height: 8.5rem;
+   width: 90%;
+   background-color: #232323;
+   border-radius: 1rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   padding-left: 2rem;
+   
+}
+.box2-p1
+{
+    font-size: 1rem;
+     line-height: 120%;
+    width: 80%;
+}
+.box2-p2
+{   width: 80%;
+    line-height: 120%;
+    font-size: 0.80rem;
+    opacity: 0.75;
+}
+.main-nav
+{
+    height: 4rem;
+    background-color:#121212;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+    z-index: 3;
+}
+.image
+{ 
+    height: 2rem;
+    width: 4.5rem;
+    margin-left: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.image img{
+    height: 1.7rem;
+    width: 1.7rem;
+}
+.image1 
+{     background-color: black;   
+    height: 2.1rem;
+    width: 2.1rem;
+    border-radius: 100%;
+    font-size: small;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+}
+.image2
+{   background-color:black;   
+    height:2.1rem;
+    width:2.1rem;
+    border-radius: 100%;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image:hover{
+    cursor: not-allowed;
+}
+.buttons
+{
+    width: 24rem;
+    height: 2 rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-right: 2rem;
+}
+.button-1:hover
+{
+    transform: scale(1.02);
+}
+.button-2:hover
+{
+    transform: scale(1.02);
+}
+.user:hover
+{
+    transform: scale(1.02);
+}
+.button-1
+{   
+    height: 1.9rem;
+    width: 10.5rem;
+    background-color:white;
+    color: black;
+    font-weight: 500;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.button-2
+{   
+    height: 1.5rem;
+    width: 9rem;
+    background-color:black;
+    color:white;
+    font-weight: 500;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.user
+{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 100%;
+    background-color:black;
+    color:white;
+    font-weight: 500;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#artist img{
+    border-radius: 100%;
+}
+#artist p
+{
+    opacity: 0.5;
+}
+#artist
+{
+    margin-top: 1rem;
+}
+.col-2:hover
+{
+    background-color: #232323;
+}
+.col-3 img:hover{
+    box-shadow: 4px 4px 7px #232323;
+}
+.col-3 h6 :hover
+{
+    font-weight: 800;
+}
+.container img
+{
+    z-index: 1;
+}
+.play 
+{    
+    width: 15rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom:0.5rem;
+    margin-top: 0.2rem;
+}
+.play div{
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sixteen img
+{
+  width:  16px;
+  height: 16px;
+  opacity: 0.5;
+}
+#forteen img
+{
+    width: 14px;
+    height: 14px;
+    opacity: 0.5;
+}
+.playicon img{
+    width: 2rem;
+    height: 2rem;
+}
+.music-player
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 3;
+}
+.play-time input
+{
+    width:24.18rem;
+}
+#sixteen img:hover
+{
+    opacity: 1;
+}
+#forteen img:hover
+{
+    opacity: 1;
+}
+#sixteen img:active
+{   
+    background-color:rgba(28, 164, 28, 0.998);
+}
+
+#item img{
+    z-index: 1;
+}
+#item
+{
+    height: 180px;
+    width: 180px;
+}
+
+#item i
+{
+   font-size: 3rem;
+   color:green;
+   align-self:end;
+   z-index: -1;
+   display: none;
+}
